@@ -10,7 +10,7 @@ export default {
   name: 'hello',
   mounted () {
 
-         window.setTimeout(function(){window.location.href = "https://grants.icjia.cloud"},5000);
+         window.setTimeout(function(){window.location.href = "https://grants.icjia.cloud"},8000);
 
   },
   data () {
