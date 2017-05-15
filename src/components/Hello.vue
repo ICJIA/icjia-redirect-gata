@@ -8,6 +8,11 @@
 <script>
 export default {
   name: 'hello',
+  mounted () {
+
+         window.setTimeout(function(){window.location.href = "https://grants.icjia.cloud"},5000);
+
+  },
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
